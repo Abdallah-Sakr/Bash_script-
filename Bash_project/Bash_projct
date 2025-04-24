@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Check if script is run as root
 if [ "$EUID" -ne 0 ]; then
   whiptail --title "Permission Denied" --msgbox "Please run this script as root." 10 50
